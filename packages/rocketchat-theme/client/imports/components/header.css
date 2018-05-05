@@ -47,7 +47,7 @@
 	}
 
 	&--burger {
-		display: none;
+		display: flex;
 	}
 
 	&__name {

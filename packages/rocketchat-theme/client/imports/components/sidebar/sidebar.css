@@ -70,7 +70,7 @@
 	}
 }
 
-@media (width < 780px) {
+@media (width < 2780px) {
 	.sidebar {
 		position: absolute;
 	}

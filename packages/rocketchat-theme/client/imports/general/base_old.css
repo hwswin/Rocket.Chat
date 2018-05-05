@@ -641,12 +641,12 @@
 }
 
 .rc-old.burger {
-	display: none;
-	visibility: hidden;
+/*	display: none;
+	visibility: hidden;*/
 
 	cursor: pointer;
-	transition: transform 0.2s ease-out 0.1s;
-	will-change: transform;
+/*	transition: transform 0.2s ease-out 0.1s;
+	will-change: transform;*/
 
 	& i {
 		display: block;
@@ -5537,7 +5537,7 @@ body:not(.is-cordova) {
 	}
 }
 
-@media (width <= 780px) {
+@media (width <= 2780px) {
 	.rc-old.main-content {
 		transition: right 0.25s cubic-bezier(0.5, 0, 0.1, 1), transform 0.1s linear;
 		will-change: transform;

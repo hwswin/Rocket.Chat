@@ -156,7 +156,7 @@ this.menu = new class extends EventEmitter {
 		this.sidebar = this.menu = $('.sidebar');
 		this.sidebarWrap = $('.sidebar-wrap');
 		this.wrapper = $('.messages-box > .wrapper');
-		const ignore = (fn) => (event) => document.body.clientWidth <= 780 && fn(event);
+		const ignore = (fn) => (event) => document.body.clientWidth <= 2780 && fn(event);
 
 		document.body.addEventListener('touchstart', ignore((e) => this.touchstart(e)));
 		document.body.addEventListener('touchmove', ignore((e) => this.touchmove(e)));
